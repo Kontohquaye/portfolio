@@ -1,0 +1,53 @@
+/** ADD YOUR AWESOME CODES HERE **/
+
+/* .cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  vertical-align: top;
+  height: 1.2em;
+} */
+
+.cd-words-wrapper b {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  /* width: 100%; */
+}
+
+.cd-words-wrapper b.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cd-words-wrapper b span {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2px solid #000;
+  white-space: nowrap;
+  animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Blinking cursor */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
