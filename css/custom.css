@@ -37,23 +37,12 @@
   color: #333;
 }
 
-/* @media screen and (min-width: 992px) {
-  #mainNav.scrolled {
-    background-color: rgba(255, 255, 255, 0.651);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .row .col-md-6 .message-box {
+    height: 290px;
+    overflow-y: scroll;
   }
-  #mainNav.scrolled .navbar-dark .navbar-nav .nav-link,
-  .navbar-dark .navbar-nav .nav-link.active {
-    color: #333;
-  }
-
-  #mainNav.scrolled .navbar-dark .navbar-nav .nav-link.active::after {
-    color: #333;
-  }
-  .navbar.scrolled .container.nav-item {
-    color: #333 !important;
-  }
-} */
+}
 
 /* Typing animation */
 @keyframes typing {
