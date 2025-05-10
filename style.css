@@ -398,6 +398,16 @@ a img.aligncenter {
   left: 0;
   top: 0;
 }
+.cd-headline.clip .cd-words-wrapper::after {
+  /* line */
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #aebcb9;
+}
 .cd-words-wrapper b.is-visible {
   position: relative;
 }
