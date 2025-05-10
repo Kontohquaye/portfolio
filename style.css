@@ -625,6 +625,7 @@ xclip
 	position: relative;
 	-webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
+     overflow: hidden;
 }
 .right-box-pro img{
 	position: relative;
@@ -1173,6 +1174,7 @@ xclip
 .section.lb .service-widget h3 {
     color: #1f1f1f;
 }
+
 
 .service-widget p {
     margin-bottom: 0;

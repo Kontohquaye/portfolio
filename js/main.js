@@ -29,3 +29,12 @@ document.addEventListener("DOMContentLoaded", function () {
   // Rotate every 4s
   setInterval(switchWord, 4000);
 });
+
+window.addEventListener("scroll", function () {
+  const navbar = document.getElementById("mainNav");
+  if (window.scrollY > 50) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
+});
