@@ -12,3 +12,6 @@ My personal portfolio website showcasing my works in academia and interests in w
 ## My github
 
 - 👨‍💻 GitHub: [Kontohquaye](https://github.com/Kontohquaye)
+
+  ## Visit site
+  [Mysite](https://kontohquaye.netlify.app)
